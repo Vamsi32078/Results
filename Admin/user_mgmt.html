@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="user_mgmt.css">
 </head>
 <body>
-    
+  <div class="container">
+    <h2>User Registration</h2>
+    <div class="form-container">
+      <input type="text" name="fullname" placeholder="Enter full name">
+      <input type="email" name="Email" placeholder="Enter email address">
+      <select>
+        <option selected disabled>Select a role</option>
+        <option>Admin</option>
+        <option>User</option>
+      </select>
+      <input type="password" placeholder="Enter password">
+      <button class="register-btn">Register User</button>
+    </div>
+
+    <h2>User Information</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>vamsi</td>
+          <td>vamsi@gmail.com</td>
+          <td>Admin</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>chinni</td>
+          <td>chinni@gmail.com</td>
+          <td>User</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>

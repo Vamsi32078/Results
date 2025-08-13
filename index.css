@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-image: url(https://wallpaperaccess.com/full/4893822.jpg);
+    text-align: center;
+}
+
+.card {
+    width: 150px;
+    background: rgba(62, 90, 67, 0.514);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.card h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
