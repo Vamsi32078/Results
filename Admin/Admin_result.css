@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  
+ background-image: url(https://wallpaperaccess.com/full/4893822.jpg);
+ padding: 20px;
+ 
+
+}
+.list-style{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.list-style li{
+    color: black;
+    padding: 10px 12px 10px 40px;
+    box-shadow: 0px 12px 15px rgb(0,0,0.5);
+    position: relative;
+    border-radius: 16px;
+    
+
+}
+.list-style li::before{
+    content: '*';
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    left: 18px;
+    height: 20px;
+    width:20px;
+    color:#ffffff;
+
+}
+.list-style li:hover{
+    transform: scale(1.2);
+    box-shadow: rgb(0, 0, 0.5);
+    background: rgba(25, 212, 131, 0.551);
+
+}
+
+
+.card {
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.card-hover{
+  border: 2px solid black;
+    background-color: rgba(92, 116, 105, 0.551);
+    transform: scale(1.1);
+    overscroll-behavior-x: 0px 12px 32px rgb(0,0,1.5);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table thead {
+  background-color: #f1f1f1;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}

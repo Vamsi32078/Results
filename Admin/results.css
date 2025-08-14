@@ -1,0 +1,63 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/4893822.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+.form-label {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.form-select,
+.form-control {
+  font-size: 0.9rem;
+}
+
+.table {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.table th {
+  background-color: #f1f3f5;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.table td {
+  font-size: 0.88rem;
+  color: #333;
+  vertical-align: middle;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.4em 0.6em;
+  border-radius: 0.4rem;
+}
+
+.badge.bg-success {
+  background-color: #198754 !important;
+}
+
+.badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.btn-sm {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+}
+
+
+.text-success,
+.text-danger {
+  font-size: 0.85rem;
+}
